@@ -1,22 +1,28 @@
 {
-  "name": "raw-cookies-fb-bot",
-  "version": "1.0.0",
-  "description": "A Facebook message sender using raw cookies and WebSocket control.",
+  "name": "waleed-cockies-server",
+  "version": "2.0.0",
+  "description": "Facebook Cookie & Token Bomber System with Monitor",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "facebook",
-    "fca",
-    "websocket",
-    "express"
+    "cookie",
+    "token",
+    "bomber",
+    "auto-message"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Waleed",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2",
-    "fca-mafiya": "latest",
-    "ws": "^8.18.0"
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "axios": "^1.6.0",
+    "fca-mafiya": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
